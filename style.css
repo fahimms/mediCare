@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+  float: left;
+}
+
+.col-md-12 {
+  width: 100%;
+  float: left;
+}
+
+.col-md-4 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-md-8 {
+  width: 66.67%;
+  float: left;
+}
+
+.header-section {
+  width: 100%;
+  float: left;
+}
+
+.logo {
+  width: left;
+  padding: 15px 0px;
+}
+
+.header-section .nav {
+  padding: 24px 0px;
+  text-align: right;
+}
+
+.header-section .nav ul li {
+  margin-left: 25px;
+  font-size: 14px;
+  font-weight: 900;
+  font-height: 24px;
+  color: #000;
+}
+
+.header-section .nav ul li a {
+  transition: .7s;
+  color: white;
+}
+
+.header-section .nav ul li a:hover {
+  padding: 10px;
+  background: #5FB05B;
+  color: #f6f9f9;
+}
+
+.banner {
+  background-image: url("img/banner01.png");
+  height: 720px;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.text1 {
+  margin: 10% auto;
+  color: white;
+  font-size: 5vw;
+}
+
+.green_line {
+  background-color: #5FB05B;
+  width: 30%;
+  height: 4px;
+  margin-bottom: 12px;
+}
+
+.t2 {
+  color: white;
+  font-size: 15px;
+}
+
+.btn1 {
+  background-color: rgba(0, 0, 0, 0.0);
+  font-size: 20px;
+  padding: 1% 2%;
+  color: white;
+  border: 1px solid #5FB05B;
+  border-radius: 5px;
+  transition: .7s;
+}
+
+.btn1:hover {
+  background-color: #5FB05B;
+  font-size: 20px;
+  padding: 1% 2%;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #5FB05B;
+}
+
+.part1 {
+  background: #f6f9f9;
+  width: auto;
+  background-position: center;
+  background-size: cover;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.txt1 {
+  font-size: 200%;
+}
+
+.txt2 {
+  color: #ababab;
+  font-size: 100%;
+}
+
+.part2 {
+  width: 100%;
+  float: center;
+  background: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.txt3 {
+  color: #ababab;
+  font-size: 80%;
+}
+
+
+.profile_info{
+  width: 100%;
+  text-align: right;
+  padding-right: 10%;
+
+  position: absolute;
+  z-index: 3;
+  color: white;
+}
